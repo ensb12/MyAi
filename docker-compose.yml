@@ -1,0 +1,1 @@
+version: '3'services:  chatgpt:    image: sheepgreen/chatgpt-web     container_name: webchat    environment:      - OPENAI_API_KEY= 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   volumes:      - ./chat.html:/chatgpt-web/templates/index.html    ports:
